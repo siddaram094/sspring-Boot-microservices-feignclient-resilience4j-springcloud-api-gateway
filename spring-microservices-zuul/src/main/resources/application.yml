@@ -1,0 +1,23 @@
+#spring:
+ #  application:
+ #     name: zuul-api-gateway
+  # cloud:
+   #   gateway:
+    #  routes:
+     #    - id: client-service
+      #     uri: http://localhost:8300
+       #    pridicates:
+        #   - Path =/getData/getAllUserData
+         #- id: db-service
+          # uri: http://localhost:8301
+           #predicates:
+           #- Path=/user/**
+#server:
+#   port:8080
+#eureka:
+#  client:
+#    registerWithEureka: true
+#    fetchRegistry: true
+#    serviceUrl:
+#      defaultZone: http://localhost:8761/eureka
+   
